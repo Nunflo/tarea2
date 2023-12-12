@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio6</title>
+</head>
+<body>
+    <!-- Ejercicio 6 -->
+    <h1>Oferta descuento en 3 Destinos!</h1>
+    <h2>Selecciona el destino y el precio para conocer tu descuento</h2>
+    <form>
+        <label for="destino">Selecciona un destino:</label>
+        <select id="destino">
+            <option value="La costa del Sol">La costa del Sol</option>
+            <option value="Panchimalco">Panchimalco</option>
+            <option value="Puerto el Triunfo">Puerto el Triunfo</option>
+        </select><br>
+
+        <label for="precio">Precio del destino:</label>
+        <input type="text" id="precio" required><br>
+
+        <button type="button" onclick="calcularDescuento()">Calcular Descuento</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="ejercicio6.js"></script>
+</body>
+</html>

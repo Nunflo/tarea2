@@ -1,0 +1,31 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    
+    <!-- Ejercicio 5 -->
+    <h1>Descuento de Vehículo</h1>
+    <h2>Selecciona el vehiculo y el precio, para conocer el descuento</h2>
+    <form>
+        <label for="vehiculo">Selecciona un vehículo:</label>
+        <select id="vehiculo">
+            <option value="Ford Fiesta">Ford Fiesta</option>
+            <option value="Ford Focus">Ford Focus</option>
+            <option value="Ford Escape">Ford Escape</option>
+        </select><br>
+
+        <label for="precio">Precio del vehículo:</label>
+        <input type="text" placeholder="Ingresa el precio del vehiculo?" id="precio" required><br>
+
+        <button type="button" onclick="calcularDescuento()">Calcular Descuento</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="ejercicio5.js"></script>
+ </body>
+ </html>
